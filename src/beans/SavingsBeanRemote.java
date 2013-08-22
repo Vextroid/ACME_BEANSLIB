@@ -10,6 +10,7 @@ import javax.ejb.Remote;
  *
  * @author Vextroid
  */
+//
 @Remote
 public interface SavingsBeanRemote {
     
