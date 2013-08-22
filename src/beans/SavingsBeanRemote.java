@@ -16,6 +16,7 @@ public interface SavingsBeanRemote {
     
     public void createSavingsAccount(int C_ID, String accNum, int balance);
     public int getBalance(String accNum);
+    public boolean maxSavings(int C_ID);
 
     
 }
