@@ -15,7 +15,7 @@ import javax.ejb.Remote;
 public interface SavingsBeanRemote {
     
     public void createSavingsAccount(int C_ID, String accNum, int balance);
-    public int getBalance(String accNum);
+    public int getBalance(int id,String accNum);
     public boolean maxSavings(int C_ID);
 
     
